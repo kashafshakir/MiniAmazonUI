@@ -1,0 +1,441 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar
+{
+    height: 60px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+.navlogo
+{
+    height: 50px;
+    width: 100px;
+}
+.logo
+{
+    background-image: url(amazon_logo.png);
+    height:49px;
+    width: 100%;
+    background-size:cover;
+}
+.border
+{
+    border:2px solid transparent;
+}
+.border:hover{ 
+    border:2px solid white;
+}
+.nav-address{ /*deliver to*/
+    font-size:0.85rem; 
+    font-family: arial;
+    color: #cccccc;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.nav-location /*pakistan*/
+{
+    font-size: 1rem;
+    font-style: bold;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.deliver{
+    margin-left: 70px;
+}
+.nav-search
+{
+    display: flex;
+    width:700px;
+    margin-left: 1rem;
+    height: 40px;
+    border-radius: 20px;
+}
+.dropdown{
+    width: auto;
+    color: grey;
+    border-top-left-radius: 10px;  /* Round left corners */
+    border-bottom-left-radius: 10px;
+    width: 50px;
+    text-align: center;
+    
+}
+
+.dropdown:hover{
+    color:black;
+}
+.selectbutton{
+    padding: 10px 10px 10px 0px;
+    width:100%;
+}
+.selectbutton:hover{
+    border:2px solid #f49e4c;
+}
+.icon{
+    background-color: #f49e4c;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-top-right-radius: 10px;  /* Round right corners */
+    border-bottom-right-radius: 10px;
+}
+.icon:hover{
+    background-color: #f18f01;
+}
+.line1
+{
+    font-size: 12px;
+}
+.line2
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+.carticon
+{
+    font-weight: 700;
+}
+.navbar2
+{
+    background-color:#2e4057;
+    height: 39px;
+    color: #ffffff;
+    display: flex;
+}
+.option{
+    margin-left: 15px;
+    border: 2px solid transparent;
+    text-align: center;
+    align-content: center;
+}
+.option:hover{
+    border: 2px solid white;
+}
+.background{
+    background-image: url(mainsection.jpg);
+    background-size: cover;
+    background-color: white;
+    height: 600px;
+}
+.content {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    background-color: seashell;
+    padding: 10px; /* Add padding for spacing */
+    height: 420px;
+}
+.box {
+    border: 2px solid white;
+    width: 23%; /* Adjust as needed to fit 4 boxes in a row */
+    height: 420px; /* Ensure consistent height */
+    background-color: #ffffff;
+    margin: 1%; /* Add margin for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.box1{
+    align-items: center;
+}
+.img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 280px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(Screenshot\ 2025-03-08\ 220658.png);
+}
+
+h1 {
+    font-weight: bold;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 21px;
+}
+a {
+    display: block;
+    font-size: smaller;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img2
+{
+    background-image: url(getyourgameimg.jpg);
+}
+.img3
+{
+    background-image: url(Screenshot\ 2025-03-08\ 225953.png);
+}
+.img4
+{
+    background-image: url(Screenshot\ 2025-03-08\ 230300.png);
+}
+.img5
+{
+    background-image: url(officeproduct.jpg);
+}
+.img6{
+ background-image: url(Screenshot\ 2025-03-08\ 232402.png);
+}
+.img7
+{
+ background-image: url(womenday.jpg);
+}
+.img8{
+ background-image: url(Screenshot\ 2025-03-08\ 232844.png);
+}
+.content3{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.img9{
+    background-image: url(Screenshot\ 2025-03-08\ 233128.png);
+}
+.content5{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.img10{
+    background-image: url(Screenshot\ 2025-03-08\ 234135.png);
+}
+.img11
+{
+    background-image: url(Screenshot\ 2025-03-08\ 234309.png);
+}
+.content6{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.content8{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.content9{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.content11{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.img12
+{
+   background-image: url(Screenshot\ 2025-03-08\ 234920.png);
+}
+.img13{
+ background-image: url(Screenshot\ 2025-03-08\ 234805.png);
+}
+.img14{
+    background-image: url(Screenshot\ 2025-03-08\ 235711.png);
+}
+.content4{
+    
+        display: flex;
+        justify-content: space-between; /* Distribute space between items */
+        flex-wrap: wrap; /* Allow wrapping to the next line */
+        background-color: seashell;
+        padding: 10px; /* Add padding for spacing */
+        height: 420px;
+        width: 100%;
+}
+.content7
+{
+    width: 100%;
+}
+.content10{
+    width: 100%;
+}
+.img15{
+ background-image: url(Screenshot\ 2025-03-09\ 004023.png);
+}
+.img16{
+ background-image: url(Screenshot\ 2025-03-09\ 004645.png);
+}
+.img17{
+background-image: url(Screenshot\ 2025-03-09\ 004727.png);
+}
+.img18{
+ background-image: url(Screenshot\ 2025-03-09\ 004808.png);
+}
+.img19{
+    background-image: url(Screenshot\ 2025-03-09\ 005940.png);
+}
+.img20{
+    background-image: url(Gaming_zone_1x._SY304_CB540253513_\ \(1\).jpg);
+}
+.img21{
+    background-image: url(Screenshot\ 2025-03-09\ 010431.png);
+}
+.img22{
+    background-image: url(Screenshot\ 2025-03-09\ 004957.png);
+}
+.recommendation
+{
+    margin-top: 30px;
+    height: 300px;
+    background-color:#ffffff;
+    width: 100%;
+    align-items: center;
+}
+.personalized{
+   
+    height: 100px;
+    background-color:#ffffff;
+    border:2px solid #d7d9ce;
+    color:#2e4057;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.p1{
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: arial;
+    font-size:20px;
+}
+.starthere{
+    text-decoration:underline;
+    display: inline;
+    margin-left: none;
+}
+button{
+    border-radius: 50px;
+    width: 150px;
+    height: 29px;
+    background-color: #f7cb15;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #f49e4c;
+}
+.p2{
+    margin-top: 5px;
+    font-family: arial;
+    font-size:15px;
+}
+.backtotop{
+    background-color: #2d3142;
+    color:white;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+.backtotop:hover{
+    background-color: #b8b3be;
+}
+.ending{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: #2E4057;
+    color:white;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+li{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.mainheading{
+    font-weight: bold;
+    font-size:15px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.navfooter
+{
+    background-color: #2E4057;
+    border:2px solid whitesmoke;
+    height:100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logofooter{
+    background-image:url(amazon_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    width:70px;
+    height: 70px;
+    background-color:#2E4057;
+    margin-left: 200px;
+}
+.lingo{
+    background-color: #2E4057;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 2px solid white;
+}
+.buttons
+{
+    margin-top:30px;
+}
+.US{
+    border-radius:0;
+    background-color:#2E4057;
+    color:white;
+    border: 2px solid white;
+}
+.container {
+    display: flex;
+    justify-content:space-evenly;
+    background-color:rgb(19,26,34);
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.column {
+    width: 30%;
+    background-color: rgb(19,26,34);
+    align-content: center;
+}
+.boxess {
+    
+    background-color: rgb(19,26,34);
+    height: 100px;
+    border: 2px solid transparent;
+    color:white;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.end{
+    display: flex;
+    background-color: rgb(19,26,34);
+    width: 100%;
+    justify-content: space-evenly;
+    color:white;
+    font-size: 15px;
+}
+
+p:hover{
+    text-decoration: underline;
+}
